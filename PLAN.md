@@ -124,7 +124,7 @@ Aceptación: tras la descarga inicial, recargar sin red, jugar, cerrar y reanuda
 
 ### P5 — Preparación y publicación en GitHub Pages
 
-- [ ] Coordinación: concretar repositorio, rama y dirección final.
+- [x] Coordinación: concretar repositorio, rama y dirección final. Repositorio privado https://github.com/irc-developer/wh40kmissionlog, rama main; ruta prevista /wh40kmissionlog/. Disponibilidad y URL publicada de Pages aún pendientes.
 - [x] Guardado/publicación: preparar Actions, ruta base, manifest, scope y navegación.
 - [ ] Coordinación: comprobar el recorrido bajo /<repositorio>/ y publicar dentro del alcance autorizado por Iván.
 

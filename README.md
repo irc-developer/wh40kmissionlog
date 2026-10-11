@@ -26,6 +26,6 @@ No se guardan partidas en un servidor. El almacenamiento depende del navegador y
 
 La construcción de producción empaqueta código, estilos, icono y catálogo. «Lista para usar sin conexión» se muestra tras comprobar sus recursos. Las actualizaciones se ofrecen para aplicar expresamente con el guardado resuelto.
 
-GitHub Pages está preparado con ejecución manual. Se ha solicitado un nuevo repositorio llamado `wh40kmissionlog`; su creación remota y dirección definitiva están pendientes. No se ha publicado. `PAGES_BASE` debe coincidir con la ruta real, incluida la barra inicial y final. La comprobación local utiliza una subruta de ensayo.
+GitHub Pages está preparado con ejecución manual. Repositorio privado: [irc-developer/wh40kmissionlog](https://github.com/irc-developer/wh40kmissionlog), conectado a la rama `main`. La publicación de la web sigue pendiente de comprobar la disponibilidad de Pages para este repositorio privado y configurar su despliegue. `PAGES_BASE` debe coincidir con la ruta real, incluida la barra inicial y final. La comprobación local utiliza una subruta de ensayo.
 
 El recorrido funcional de la variante Asistente sigue pendiente de revisión con Iván. Historial y estadísticas quedan para otra fase.

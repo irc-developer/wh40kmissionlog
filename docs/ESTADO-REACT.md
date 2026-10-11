@@ -11,7 +11,7 @@
 - Copias: formato propio estricto, tamaño limitado, referencias y puntuaciones revalidadas. Importar conserva contenido y asigna nueva identidad. Una copia compatible puede sustituir un snapshot JSON incompatible leído, previa confirmación y comparación atómica del dato completo; si cambia, se rechaza. Los errores de lectura permanecen bloqueados.
 - React: SessionProvider representa el modelo y compone MissionTerminal. La UI posee navegación, superficies, selección, borradores y foco; no accede al almacenamiento ni calcula reglas.
 - PWA: recursos empaquetados y disponibilidad offline comprobada. Actualización explícita, aplazable y con guardado resuelto. La activación desde otra pestaña se anuncia sin recarga automática.
-- Pages: comprobaciones automáticas y publicación manual preparadas. Construcción bajo /wh40kmissionlog/ verificada. Iván ha pedido crear un repositorio nuevo llamado wh40kmissionlog; creación remota pendiente de sesión en GitHub y visibilidad elegida. Repositorio local inicializado con rama main.
+- Pages: comprobaciones automáticas y publicación manual preparadas. Construcción bajo /wh40kmissionlog/ verificada. Iván ha indicado que ha creado el repositorio wh40kmissionlog y ha elegido visibilidad privada. Repositorio conectado: https://github.com/irc-developer/wh40kmissionlog, rama main. La primera versión ya fue subida por Iván; queda sincronizar el último ajuste de documentación. Repositorio local inicializado con rama main.
 
 ## Contratos acordados con pantallas
 
@@ -45,7 +45,7 @@ Pantallas registra por separado la inspección visual, foco real, contrastes y t
 - Tácticas: agotamiento no resuelto por los textos consultados; mazo completo y sus acciones siguen pendientes. Las capacidades permanecen bloqueadas.
 - Otras primarias y giros; cierre anticipado fuera del recorrido inicial. No se rellenan reglas por analogía.
 - Revisión funcional del recorrido Asistente con Iván; lector de pantalla, teclado virtual y zoom real.
-- Creación del repositorio remoto, primera subida, configuración y despliegue de Pages; comprobar también la URL real publicada.
+- Disponibilidad, configuración y despliegue de Pages para el repositorio privado; comprobar también la URL real publicada.
 - No hay migraciones implícitas de esquemas desconocidos. La escritura de un registro adicional de trazabilidad en el MCP falló por su ruta autorizada; consultas y referencias permanecen en el MCP.
 
 No se ha declarado terminado todo P2–P5. PLAN.md marca solo tareas integradas y comprobadas.

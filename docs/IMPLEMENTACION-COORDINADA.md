@@ -52,4 +52,4 @@ Los chats anteriores de planificación se conservan como referencia.
 
 P0/P1 del catálogo inicial y parte de P2/P4 están implementados. Ambos chats acordaron los contratos, correcciones y snapshot de reglas; las pruebas de UI y de producción verifican sus consumidores. Guardado, copias, recuperación incompatible, conflicto y actualización conservan el estado según las comprobaciones registradas. La revisión de Iván y las reglas fuera de cobertura permanecen pendientes.
 
-Por nueva indicación de Iván se preparará un repositorio GitHub nuevo con el nombre del proyecto. El repositorio local ya usa main; creación remota y publicación requieren la sesión de GitHub y concretar la visibilidad.
+Por nueva indicación de Iván se prepara la conexión con un repositorio GitHub nuevo con el nombre del proyecto. Iván indica que ya lo ha creado y pide visibilidad privada. El repositorio local usa main y origin apunta a https://github.com/irc-developer/wh40kmissionlog.git. La versión inicial fue subida por Iván; publicación de la web y disponibilidad de Pages para el repositorio privado siguen pendientes de comprobación.
