@@ -11,7 +11,7 @@
 - Copias: formato propio estricto, tamaño limitado, referencias y puntuaciones revalidadas. Importar conserva contenido y asigna nueva identidad. Una copia compatible puede sustituir un snapshot JSON incompatible leído, previa confirmación y comparación atómica del dato completo; si cambia, se rechaza. Los errores de lectura permanecen bloqueados.
 - React: SessionProvider representa el modelo y compone MissionTerminal. La UI posee navegación, superficies, selección, borradores y foco; no accede al almacenamiento ni calcula reglas.
 - PWA: recursos empaquetados y disponibilidad offline comprobada. Actualización explícita, aplazable y con guardado resuelto. La activación desde otra pestaña se anuncia sin recarga automática.
-- Pages: comprobaciones automáticas y publicación manual preparadas. Construcción bajo /wh40kmissionlog/ verificada. Iván ha indicado que ha creado el repositorio wh40kmissionlog y ha elegido visibilidad privada. Repositorio conectado: https://github.com/irc-developer/wh40kmissionlog, rama main. La primera versión ya fue subida por Iván; queda sincronizar el último ajuste de documentación. Repositorio local inicializado con rama main.
+- Pages: comprobaciones automáticas y publicación manual preparadas. Construcción bajo /wh40kmissionlog/ verificada. Iván ha indicado que ha creado el repositorio wh40kmissionlog y ha elegido visibilidad privada. Repositorio conectado: https://github.com/irc-developer/wh40kmissionlog, rama main. La primera versión fue subida por Iván y la documentación posterior quedó sincronizada. Privacidad y rama verificadas mediante GitHub; comprobaciones remotas del commit 7003d80 correctas. Pages devuelve 404 en su consulta de estado; no se acredita despliegue. Repositorio local inicializado con rama main.
 
 ## Contratos acordados con pantallas
 
@@ -26,7 +26,7 @@ Las entradas sin registrar permanecen durante la sesión. Consultar reglas, camb
 ## Evidencia ejecutada
 
 - 65 pruebas en 10 archivos: motor, catálogo, repositorio, sesión, PWA y UI. TDD aplicado a comportamientos; fallos comprobados antes de su implementación.
-- Tipos, análisis estático y construcción de producción correctos.
+- Tipos, análisis estático y construcción de producción correctos. GitHub Actions confirma las comprobaciones del commit 7003d80: https://github.com/irc-developer/wh40kmissionlog/actions/runs/38174884928.
 - Siete recorridos Playwright en Chromium, sobre producción bajo /wh40kmissionlog/:
   1. Preparar, avanzar, registrar, consultar rival, recargar, completar cinco rondas y recuperar Resultado.
   2. Descargar recursos, recargar sin red, escribir y recuperar la misma partida sin red.
