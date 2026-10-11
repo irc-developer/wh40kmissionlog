@@ -1,0 +1,12 @@
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { App } from './app/App';
+import { SessionProvider } from './app/SessionProvider';
+import { SessionController } from './application/session';
+import { initialCatalog } from './catalog/initial';
+import { DexieGameRepository } from './storage/dexie-repository';
+import './styles/terminal.css';
+import { BrowserPwa } from './pwa/browser-pwa';
+const controller=new SessionController(new DexieGameRepository(),initialCatalog,()=>crypto.randomUUID(),new BrowserPwa(patch=>controller.setPwa(patch)));
+void controller.prepareOffline();
+createRoot(document.getElementById('root')!).render(<StrictMode><SessionProvider controller={controller}><App/></SessionProvider></StrictMode>);
