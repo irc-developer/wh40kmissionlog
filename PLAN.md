@@ -160,3 +160,7 @@ En interfaz: funcionamiento desde 320 px sin desplazamiento horizontal, controle
 ## Primer paquete de trabajo
 
 El primer paquete P0/P1 está integrado. El siguiente trabajo pendiente es completar cobertura de reglas y mazos tácticos cuando se resuelva su agotamiento, revisar el recorrido con Iván y concretar repositorio/URL de publicación. La web actual permite revisar una partida completa con misiones fijas.
+
+## Análisis estratégico previo a continuar
+
+El 12 de octubre de 2026 se revisaron mediante el MCP las 25 primarias, 18 secundarias y 6 giros disponibles de Chapter Approved 2026–2027, junto con selección, acciones, control y puntuación. Las síntesis y las inferencias por estilos de ejército están en docs/ANALISIS-MISIONES.md. Este análisis no amplía la cobertura del motor ni cierra hitos de implementación. Permanecen pendientes la matriz completa de disposiciones y emparejamientos, la preparación e interacción de ciertos marcadores y la comparación de listas concretas.
